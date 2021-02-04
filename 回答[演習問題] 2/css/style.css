@@ -551,16 +551,37 @@ body {
   .company-img,
   .recruit-img{
     width: 100%;
+    margin-bottom: 10%;
   }
-  .faq{
+  .faq {
     width: 100%;
-    margin: 0;
-    padding-right: 0%;
-    padding-left: 0%;
+    background: #000;
+    margin: 0 0 10%;
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
   }
-  .faq-title{
-    padding-left: 5%;
+  
+  .faq-title,
+  .faq-title-jp {
+    color: #fff;
   }
+  
+  .faq-title {
+    font-size: 40px;
+    width: 87px;
+  }
+  
+  .faq-title-jp {
+    font-size: 20px;
+    width: 150px;
+    text-align: start;
+  }
+ 
+  
+
   .header-logo{
     justify-content: center;
   }
